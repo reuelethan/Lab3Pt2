@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <script src="script.js"></script>
+</body>
+<div class="container">
+    <div class="main">
+        <form action="" method="get">
+            <h1>MY CONTACTS</h1>
+            <label for="NAME">Name<br>
+                <input type="text" name="NAME" id="name"><br>
+            </label>
+            <label for="NAME">Email<br>
+                <input type="email" name="EMAIL" id="email"><br>
+            </label>
+            <label for="NUMBER">Number<br><input type="text" name="NUMBER" id="number">
+                <br></label>
+            </label>
+            <label for="Relation">Relation<br>
+                <select name="Relation" required>
+                    <option value="" disabled selected hidden>Choose a Relation</option>
+                    <option value="Other">Other</option>
+                    <option value="Sibling">Sibling</option>
+                    <option value="Parent">Parent</option>
+                </select><br>
+            </label>
+            <button type="submit" class="addbutton">ADD</button>
+        </form>
+
+    </div>
+</div>
+
+<div class="containContacts">
+    <div class="contact one">
+        <section class="contactInfo person1">
+            <span class="ContactName">Name:<span></span></span><br>
+            <span class="ContactEmail">Email:<span></span></span><br>
+            <span class="ContactPhone">Phone:<span></span></span><br>
+            <span class="ContactRelation">Relation:<span></span></span><br>
+        </section>
+        <div class="trash"></div>
+    </div>
+    <!-- <div class="contact two">
+        <section class="contactInfo person2">
+            <span class="ContactName">Name:</span><br>
+            <span class="ContactEmail">Email:</span><br>
+            <span class="ContactPhone">Phone:</span><br>
+            <span class="ContactRelation">Relation:</span><br>
+        </section>
+        <div class="trash"></div>
+    </div>
+    <div class="contact three">
+        <section class="contactInfo person3">
+            <span class="ContactName">Name:</span><br>
+            <span class="ContactEmail">Email:</span><br>
+            <span class="ContactPhone">Phone:</span><br>
+            <span class="ContactRelation">Relation:</span><br>
+        </section>
+        <div class="trash"></div>
+
+    </div> -->
+</div>
+
+</html>
